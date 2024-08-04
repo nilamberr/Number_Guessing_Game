@@ -1,7 +1,10 @@
 To Run the Game Extract Number_Guessing_Game Folder and open it in any IDE Which runs Python Code.
-And then run the main.py to run the Game
-The backend.py is the base code of functionality which runs the game Without Gui
-For running the main.py file tou should have install tkinter and numpy at your system
+
+And then run the main.py to run the Game.
+
+The backend.py is the base code of functionality which runs the game Without Gui.
+
+For running the main.py file you should have install tkinter and numpy at your system.
 
 Glimpse of Game:
 After running the code The Appear Window 
