@@ -26,6 +26,8 @@ def check_guess():
             result_label.config(text=f"You WON!\nYou took {guess_number} attempts to guess the number.")
             input_entry.config(state=tk.DISABLED)
             guess_button.config(state=tk.DISABLED)
+            reset_button.pack_forget()
+            restart_button.pack(pady=20)
             return
         guess_number += 1
         input_entry.delete(0, tk.END)
@@ -36,7 +38,7 @@ def check_guess():
 
             reset_button.pack_forget()
             restart_button.pack(pady=20)
-            quit_button.pack(pady=20)
+            
             
             
             
@@ -82,6 +84,7 @@ input_entry.pack(pady=10)
 guess_button.pack(pady=10)
 result_label.pack(pady=10)
 reset_button.pack(pady=10)
+quit_button.pack(pady=20)
 
 
 # Initialize game
